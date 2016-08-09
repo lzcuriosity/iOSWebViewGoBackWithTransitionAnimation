@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280E5D161D58E1B900D24126 /* LZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E5D151D58E1B900D24126 /* LZWebViewController.m */; };
+		28E86BAE1D58889400BCC872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BAD1D58889400BCC872 /* main.m */; };
+		28E86BB11D58889400BCC872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BB01D58889400BCC872 /* AppDelegate.m */; };
+		28E86BB41D58889400BCC872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BB31D58889400BCC872 /* ViewController.m */; };
+		28E86BB71D58889400BCC872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E86BB51D58889400BCC872 /* Main.storyboard */; };
+		28E86BB91D58889400BCC872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E86BB81D58889400BCC872 /* Assets.xcassets */; };
+		28E86BBC1D58889400BCC872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E86BBA1D58889400BCC872 /* LaunchScreen.storyboard */; };
+		28E86BC71D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BC61D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.m */; };
+		28E86BD21D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BD11D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.m */; };
+		28E86BE21D58895200BCC872 /* LZWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E86BE11D58895200BCC872 /* LZWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28E86BC31D58889400BCC872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E86BA11D58889400BCC872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E86BA81D58889400BCC872;
+			remoteInfo = iOSWebViewGoBackWithTransitionAnimationDemo;
+		};
+		28E86BCE1D58889500BCC872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E86BA11D58889400BCC872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E86BA81D58889400BCC872;
+			remoteInfo = iOSWebViewGoBackWithTransitionAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280E5D141D58E1B900D24126 /* LZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWebViewController.h; sourceTree = "<group>"; };
+		280E5D151D58E1B900D24126 /* LZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWebViewController.m; sourceTree = "<group>"; };
+		28E86BA91D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebViewGoBackWithTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E86BAD1D58889400BCC872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E86BAF1D58889400BCC872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28E86BB01D58889400BCC872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28E86BB21D58889400BCC872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28E86BB31D58889400BCC872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28E86BB61D58889400BCC872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28E86BB81D58889400BCC872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28E86BBB1D58889400BCC872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28E86BBD1D58889400BCC872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E86BC21D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebViewGoBackWithTransitionAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E86BC61D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebViewGoBackWithTransitionAnimationDemoTests.m; sourceTree = "<group>"; };
+		28E86BC81D58889500BCC872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E86BCD1D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebViewGoBackWithTransitionAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E86BD11D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebViewGoBackWithTransitionAnimationDemoUITests.m; sourceTree = "<group>"; };
+		28E86BD31D58889500BCC872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E86BE01D58895200BCC872 /* LZWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWebView.h; sourceTree = "<group>"; };
+		28E86BE11D58895200BCC872 /* LZWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E86BA61D58889400BCC872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BBF1D58889400BCC872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BCA1D58889500BCC872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E86BA01D58889400BCC872 = {
+			isa = PBXGroup;
+			children = (
+				28E86BDF1D58890800BCC872 /* LZWebView */,
+				28E86BAB1D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */,
+				28E86BC51D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests */,
+				28E86BD01D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests */,
+				28E86BAA1D58889400BCC872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E86BAA1D58889400BCC872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BA91D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo.app */,
+				28E86BC21D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.xctest */,
+				28E86BCD1D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E86BAB1D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BAF1D58889400BCC872 /* AppDelegate.h */,
+				28E86BB01D58889400BCC872 /* AppDelegate.m */,
+				28E86BB21D58889400BCC872 /* ViewController.h */,
+				28E86BB31D58889400BCC872 /* ViewController.m */,
+				280E5D141D58E1B900D24126 /* LZWebViewController.h */,
+				280E5D151D58E1B900D24126 /* LZWebViewController.m */,
+				28E86BB51D58889400BCC872 /* Main.storyboard */,
+				28E86BB81D58889400BCC872 /* Assets.xcassets */,
+				28E86BBA1D58889400BCC872 /* LaunchScreen.storyboard */,
+				28E86BBD1D58889400BCC872 /* Info.plist */,
+				28E86BAC1D58889400BCC872 /* Supporting Files */,
+			);
+			path = iOSWebViewGoBackWithTransitionAnimationDemo;
+			sourceTree = "<group>";
+		};
+		28E86BAC1D58889400BCC872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BAD1D58889400BCC872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28E86BC51D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BC61D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.m */,
+				28E86BC81D58889500BCC872 /* Info.plist */,
+			);
+			path = iOSWebViewGoBackWithTransitionAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		28E86BD01D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BD11D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.m */,
+				28E86BD31D58889500BCC872 /* Info.plist */,
+			);
+			path = iOSWebViewGoBackWithTransitionAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		28E86BDF1D58890800BCC872 /* LZWebView */ = {
+			isa = PBXGroup;
+			children = (
+				28E86BE01D58895200BCC872 /* LZWebView.h */,
+				28E86BE11D58895200BCC872 /* LZWebView.m */,
+			);
+			path = LZWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E86BA81D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E86BD61D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemo" */;
+			buildPhases = (
+				28E86BA51D58889400BCC872 /* Sources */,
+				28E86BA61D58889400BCC872 /* Frameworks */,
+				28E86BA71D58889400BCC872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSWebViewGoBackWithTransitionAnimationDemo;
+			productName = iOSWebViewGoBackWithTransitionAnimationDemo;
+			productReference = 28E86BA91D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28E86BC11D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E86BD91D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemoTests" */;
+			buildPhases = (
+				28E86BBE1D58889400BCC872 /* Sources */,
+				28E86BBF1D58889400BCC872 /* Frameworks */,
+				28E86BC01D58889400BCC872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E86BC41D58889400BCC872 /* PBXTargetDependency */,
+			);
+			name = iOSWebViewGoBackWithTransitionAnimationDemoTests;
+			productName = iOSWebViewGoBackWithTransitionAnimationDemoTests;
+			productReference = 28E86BC21D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28E86BCC1D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E86BDC1D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemoUITests" */;
+			buildPhases = (
+				28E86BC91D58889500BCC872 /* Sources */,
+				28E86BCA1D58889500BCC872 /* Frameworks */,
+				28E86BCB1D58889500BCC872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E86BCF1D58889500BCC872 /* PBXTargetDependency */,
+			);
+			name = iOSWebViewGoBackWithTransitionAnimationDemoUITests;
+			productName = iOSWebViewGoBackWithTransitionAnimationDemoUITests;
+			productReference = 28E86BCD1D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E86BA11D58889400BCC872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lz;
+				TargetAttributes = {
+					28E86BA81D58889400BCC872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 535B2C4Z22;
+					};
+					28E86BC11D58889400BCC872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28E86BA81D58889400BCC872;
+					};
+					28E86BCC1D58889500BCC872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28E86BA81D58889400BCC872;
+					};
+				};
+			};
+			buildConfigurationList = 28E86BA41D58889400BCC872 /* Build configuration list for PBXProject "iOSWebViewGoBackWithTransitionAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E86BA01D58889400BCC872;
+			productRefGroup = 28E86BAA1D58889400BCC872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E86BA81D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */,
+				28E86BC11D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests */,
+				28E86BCC1D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E86BA71D58889400BCC872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E86BBC1D58889400BCC872 /* LaunchScreen.storyboard in Resources */,
+				28E86BB91D58889400BCC872 /* Assets.xcassets in Resources */,
+				28E86BB71D58889400BCC872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BC01D58889400BCC872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BCB1D58889500BCC872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E86BA51D58889400BCC872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E86BB41D58889400BCC872 /* ViewController.m in Sources */,
+				280E5D161D58E1B900D24126 /* LZWebViewController.m in Sources */,
+				28E86BE21D58895200BCC872 /* LZWebView.m in Sources */,
+				28E86BB11D58889400BCC872 /* AppDelegate.m in Sources */,
+				28E86BAE1D58889400BCC872 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BBE1D58889400BCC872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E86BC71D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E86BC91D58889500BCC872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E86BD21D58889500BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E86BC41D58889400BCC872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E86BA81D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */;
+			targetProxy = 28E86BC31D58889400BCC872 /* PBXContainerItemProxy */;
+		};
+		28E86BCF1D58889500BCC872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E86BA81D58889400BCC872 /* iOSWebViewGoBackWithTransitionAnimationDemo */;
+			targetProxy = 28E86BCE1D58889500BCC872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28E86BB51D58889400BCC872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E86BB61D58889400BCC872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28E86BBA1D58889400BCC872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E86BBB1D58889400BCC872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E86BD41D58889500BCC872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28E86BD51D58889500BCC872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E86BD71D58889500BCC872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		28E86BD81D58889500BCC872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		28E86BDA1D58889500BCC872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSWebViewGoBackWithTransitionAnimationDemo.app/iOSWebViewGoBackWithTransitionAnimationDemo";
+			};
+			name = Debug;
+		};
+		28E86BDB1D58889500BCC872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSWebViewGoBackWithTransitionAnimationDemo.app/iOSWebViewGoBackWithTransitionAnimationDemo";
+			};
+			name = Release;
+		};
+		28E86BDD1D58889500BCC872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSWebViewGoBackWithTransitionAnimationDemo;
+			};
+			name = Debug;
+		};
+		28E86BDE1D58889500BCC872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSWebViewGoBackWithTransitionAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzcuriosity.iOSWebViewGoBackWithTransitionAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSWebViewGoBackWithTransitionAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E86BA41D58889400BCC872 /* Build configuration list for PBXProject "iOSWebViewGoBackWithTransitionAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E86BD41D58889500BCC872 /* Debug */,
+				28E86BD51D58889500BCC872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E86BD61D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E86BD71D58889500BCC872 /* Debug */,
+				28E86BD81D58889500BCC872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E86BD91D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E86BDA1D58889500BCC872 /* Debug */,
+				28E86BDB1D58889500BCC872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E86BDC1D58889500BCC872 /* Build configuration list for PBXNativeTarget "iOSWebViewGoBackWithTransitionAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E86BDD1D58889500BCC872 /* Debug */,
+				28E86BDE1D58889500BCC872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E86BA11D58889400BCC872 /* Project object */;
+}
